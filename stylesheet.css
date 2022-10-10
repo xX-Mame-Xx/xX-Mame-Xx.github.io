@@ -24,7 +24,9 @@ header .headline{
   display: inline-block;
   margin: 0 20px;
 }
-body{background-color:#383838;}
+body{background-color:#383838;
+font-family: "Azonix";
+}
 h1 {
   float: left;
   padding: 0.5em;
