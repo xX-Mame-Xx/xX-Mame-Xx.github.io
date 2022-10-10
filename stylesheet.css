@@ -36,5 +36,8 @@ h1 {
   background: #fefefe;
   border-left: solid 12px #46a5ff;
 }
- 
+ h2 img
+{
+	vertical-align: middle;
+}
 　
