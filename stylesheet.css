@@ -5,7 +5,7 @@ header {
   height: 60px;
   width: 100%;
   padding: 15px 0;
-  background-color: linear-gradient(-135deg, #46a5ff, #66ffcb);;
+  background: linear-gradient(-135deg, #46a5ff, #66ffcb);;
   color: white;
 }
 header .headline{
@@ -31,7 +31,6 @@ h1 {
   float: left;
   padding: 0.5em;
   color: #494949;
-  background: #ffffff;
   width: 100%;
   border-left: solid 5px #46a5ff;
 }
