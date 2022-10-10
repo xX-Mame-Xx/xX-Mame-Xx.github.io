@@ -5,7 +5,7 @@ header {
   height: 60px;
   width: 100%;
   padding: 15px 0;
-  background: linear-gradient(-135deg, #46a5ff, #66ffcb);;
+  background: linear-gradient(-135deg, #46a5ff, #66ffcb);
   color: white;
 }
 header .headline{
@@ -24,7 +24,8 @@ header .headline{
   display: inline-block;
   margin: 0 20px;
 }
-body{background-color:#383838;
+body{
+  background: linear-gradient(-135deg, #494949, #707070);
 font-family: "Azonix";
 }
 h1 {
