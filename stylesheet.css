@@ -5,7 +5,7 @@ header {
   height: 60px;
   width: 100%;
   padding: 15px 0;
-  background-color: #46a5ff;
+  background-color: linear-gradient(-135deg, #46a5ff, #66ffcb);;
   color: white;
 }
 header .headline{
