@@ -1,5 +1,23 @@
 * {
   margin:0; padding:0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+ul {
+  list-style:none;
+}
+.header__flex {
+  display: flex;
+  height:60px;
+  align-items: center;
+}
+.header__flex nav {
+  margin-left: auto;
+}
+.header__flex ul {
+  display: flex;
+}
+.header__flex ul li {
+  margin-left: 20px;
 }
 header {
   height: 60px;
@@ -7,7 +25,7 @@ header {
   padding: 15px 0;
   background: linear-gradient(-135deg, #46a5ff, #66ffcb);
   color: white;
-　position:fixed;
+  position:fixed;
 }
 header .headline{
     line-height: 60px;
