@@ -17,12 +17,15 @@ ul {
   display: flex;
 }
 .header__flex ul li {
-  margin-left: 20px;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
 }
 header {
   height: 60px;
   width: 100%;
-  padding: 15px 0;
+  padding: 5px 0;
   background: linear-gradient(-135deg, #46a5ff, #66ffcb);
   color: white;
   position:fixed;
@@ -47,13 +50,16 @@ body{
   background: linear-gradient(-135deg, #494949, #707070);
 font-family: "Azonix";
 }
-h1 {
+.tytle {
   float: left;
-  padding: 0.5em;
   color: #494949;
   width: 100%;
   background: #fefefe;
-  border-left: solid 12px #46a5ff;
+  border-left: solid 10px #48cff8;
+  height: 50px;
+  padding: 5px 0;
+  font-size: 150%;
+  line-height: 50px;
 }
  h2 img
 {
@@ -67,3 +73,4 @@ h1 {
 width: 33%;
 aspect-ratio: 16/12;
 }
+
