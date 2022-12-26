@@ -46,16 +46,12 @@ header .headline{
   display: inline-block;
   margin: 0 20px;
 }
-body{
-  background: linear-gradient(-135deg, #494949, #707070);
-font-family: "Azonix";
-}
 .tytle {
   float: left;
-  color: #494949;
+  text-align: center;
+  color: #ffffff;
   width: 100%;
-  background: #fefefe;
-  border-left: solid 10px #48cff8;
+  background-color: #494949b8;
   height: 50px;
   padding: 5px 0;
   font-size: 150%;
@@ -69,8 +65,10 @@ font-family: "Azonix";
 {
 	color: white;
 }
-.responsive {
-width: 33%;
-aspect-ratio: 16/12;
+.bg {
+  background: linear-gradient(rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.4)),  url("logo.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
-
