@@ -29,11 +29,18 @@ header {
   background: linear-gradient(-135deg, #46a5ff, #66ffcb);
   color: white;
   position:fixed;
+  top:0;
 }
 header .headline{
     line-height: 60px;
     font-size: 30px;
     margin-left: 100px;
+    white-space: nowrap;
+}
+@media screen and ( max-width:600px ){
+  .headline a{
+    display:none;
+  }
 }
 .nav-list {
     line-height: 100px;
@@ -46,12 +53,20 @@ header .headline{
   display: inline-block;
   margin: 0 20px;
 }
+.home {
+  padding-top: 0px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.home img {
+  width: 100%;
+}
 .tytle {
   float: left;
   text-align: center;
   color: #ffffff;
   width: 100%;
-  background-color: #494949b8;
+  background-color: #0000007b;
   height: 50px;
   padding: 5px 0;
   font-size: 150%;
@@ -71,4 +86,8 @@ header .headline{
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+}
+.about {
+  padding-top: 20px;
+  text-align: center;
 }
