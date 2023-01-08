@@ -94,7 +94,7 @@ header .headline{
   line-height: 2em;
 }
 .up {
-  width: 50%;
+  width: 40%;
   padding-left: 25%;
   opacity: 0;
   transform: translateY(30px);
