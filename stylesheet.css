@@ -95,7 +95,7 @@ header .headline{
 }
 .up {
   width: 40%;
-  padding-left: 25%;
+  padding-left: 30%;
   opacity: 0;
   transform: translateY(30px);
   transition: 1s ease-in-out;
