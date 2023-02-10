@@ -105,3 +105,16 @@ header .headline{
   transform: translateY(0);
   transition-delay: 1s;
 }
+#projects {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  height:600px;
+  text-align: center;
+}
+#projects p {
+  margin-top:60px;
+  padding-top: 20px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
